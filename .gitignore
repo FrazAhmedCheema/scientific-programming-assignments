@@ -1,0 +1,23 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python and Jupyter caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Downloaded data and generated files
+MNIST/
+data_file.csv
+
+# Model checkpoints
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Local secrets and system files
+.env
+.env.*
+.DS_Store
